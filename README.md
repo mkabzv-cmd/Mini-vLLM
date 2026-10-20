@@ -22,7 +22,9 @@ generation, prefill/decode, and KV cache
 ```
 
 Lessons 10–39 are implemented. Lessons 40 and later are planned in
-[FUTURE_ROADMAP.md](FUTURE_ROADMAP.md).
+[FUTURE_ROADMAP.md](FUTURE_ROADMAP.md). A separate path for image diffusion,
+step-aware batching, and a shared text/image server is described in
+[FUTURE_ROADMAP_DIFFUSION.md](FUTURE_ROADMAP_DIFFUSION.md).
 
 This is an educational implementation, not a production inference engine.
 
@@ -378,4 +380,6 @@ The implemented model path is intentionally small:
 - No CUDA, ROCm, Linux, or Windows GPU backend.
 
 The planned path toward Mini-vLLM, optimized inference, and Mini-Dynamo is in
-[FUTURE_ROADMAP.md](FUTURE_ROADMAP.md).
+[FUTURE_ROADMAP.md](FUTURE_ROADMAP.md). The optional diffusion and Mini-Omni
+path is in
+[FUTURE_ROADMAP_DIFFUSION.md](FUTURE_ROADMAP_DIFFUSION.md).

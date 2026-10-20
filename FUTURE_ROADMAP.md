@@ -37,6 +37,10 @@ Lesson 40 — request and sequence lifecycle
 Everything described after Lesson 39 in this document is a plan. It has not
 been implemented yet.
 
+A separate optional roadmap for image diffusion, Mini-Diffusion, and a shared
+text/image serving layer is available in
+[FUTURE_ROADMAP_DIFFUSION.md](FUTURE_ROADMAP_DIFFUSION.md).
+
 ## Quick map
 
 ```text
