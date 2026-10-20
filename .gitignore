@@ -1,0 +1,20 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Downloaded model fixtures. See models/README.md.
+models/*
+!models/README.md
+
+# Build and test products.
+phase0/work/
+*.o
+*.dSYM/
+
+# Legacy lesson-local binaries.
+phase0/**/minigpu_tests
+phase0/**/minigpu_tests_sanitized
+phase0/**/minigpu_tests_tsan
+
+# Clang static-analyzer reports written at the project root.
+/*.plist
